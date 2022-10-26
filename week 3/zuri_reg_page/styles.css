@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Butcherman;
+    src: url(img/Butcherman/Butcherman-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "Open sans", sans-serif Butcherman;
+    font-weight: 800;
+    background-image: url('img/halloweenbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgba(243,114,12,0.6);
+    height: 100px;
+    background-color: black;
+    color: #ffff;
+    padding: 20px 50px 0 50px;
+    justify-content: space-between;
+}
+
+
+.right {
+    text-align: right;
+    justify-content: right;
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+.prep {
+    text-align: center;
+}
+
+.holder {
+    background-image: url('img/3035.jpg');
+    height: 500px;
+    width: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    padding: 1.5rem;
+}
+
+.top {
+    margin-top: 0;
+    font-family: Butcherman;
+    text-align: center;
+    font-size: 32px;
+}
+
+input, button, select {
+    margin-bottom: 5px;
+    border: none;
+    -moz-box-shadow: -3px -3px 48px -13px rgba(243,114,12,0.6);
+    -webkit-box-shadow: -3px -3px 48px -13px rgba(243,114,12,0.6);
+    box-shadow: -3px -3px 48px -13px rgba(243,114,12,0.6);
+    border-radius: 0.3rem;
+}
+
+button {
+    margin-top: 30px;
+    background-color: rgba(243, 114, 12, 1);
+    color: #ffff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+label, input, button, select{
+    display: block;
+    width: 350px;
+    height: 30px;
+    font-weight: 400;
+}
+
+.icons {
+    display: flex;
+    gap: 50px; 
+    justify-content: center;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+a:hover {
+    color: rgba(243,114,12,0.6);
+}
+
+.signup {
+    font-weight: 100;
+    text-align: center;
+}
+
+main.reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.card {
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 5px 5px 30px rgba(243,114,12,0.6);
+}
+
+img.treats {
+    margin: 20px;
+    width: 250px;
+    height: 400px;
+}
+
+footer {
+    font-weight: 400;
+    text-align: center;
+    border-top: 2px solid rgba(243,114,12,0.6);
+    height: 100px;
+    background-color: black;
+    color: #ffff;
+}
+
+footer p {
+    margin: 30px auto 0 auto;
+    padding: auto;
+}
+
+footer p a {
+    color: #ffff;
+}
